@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Petals &amp; Pages | Handmade Floral Bookmarks &amp; Book Covers</title>
+  <meta name="description" content="Petals &amp; Pages creates handmade bookmarks and backcover designs pressed with real flowers in Matale, Sri Lanka. Every piece is Rs. 500. Order via WhatsApp." />
+  <meta name="theme-color" content="#7C2F3E" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Petals &amp; Pages | Handmade Floral Bookmarks &amp; Book Covers" />
+  <meta property="og:description" content="Handmade bookmarks and backcover designs pressed with real flowers. Made with love in Matale, Sri Lanka." />
+  <meta property="og:image" content="images/product-1.jpg" />
+
+  <link rel="icon" type="image/png" href="images/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&amp;family=Jost:wght@300;400;500;600&amp;display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/tailwind.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="bg-cream font-body text-ink antialiased overflow-x-hidden">
+
+  <!-- Icon sprite -->
+  <svg class="pointer-events-none absolute h-0 w-0 overflow-hidden" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="4" width="20" height="16" rx="3"/>
+        <path d="m3 7 9 6 9-6"/>
+      </symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+        <circle cx="12" cy="10" r="3"/>
+      </symbol>
+      <symbol id="icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M13 6l6 6-6 6"/>
+      </symbol>
+      <symbol id="icon-flower" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3c1.4 1.9 1.4 3.6 0 5.6-1.4-2-1.4-3.7 0-5.6Z"/>
+        <path d="M12 21c-1.4-1.9-1.4-3.6 0-5.6 1.4 2 1.4 3.7 0 5.6Z"/>
+        <path d="M3 12c1.9-1.4 3.6-1.4 5.6 0-2 1.4-3.7 1.4-5.6 0Z"/>
+        <path d="M21 12c-1.9 1.4-3.6 1.4-5.6 0 2-1.4 3.7-1.4 5.6 0Z"/>
+        <circle cx="12" cy="12" r="1.5"/>
+      </symbol>
+      <symbol id="icon-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8Z"/>
+      </symbol>
+      <symbol id="icon-sparkles" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3l1.7 4.6L18 9.3l-4.3 1.7L12 15.6l-1.7-4.6L6 9.3l4.3-1.7L12 3Z"/>
+        <path d="M18.5 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2Z"/>
+      </symbol>
+      <symbol id="icon-gift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="8" width="18" height="4" rx="1"/>
+        <path d="M5 12v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8M12 8v13"/>
+        <path d="M12 8H7.5a2.5 2.5 0 0 1 0-5C10 3 12 8 12 8Zm0 0h4.5a2.5 2.5 0 0 0 0-5C14 3 12 8 12 8Z"/>
+      </symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <path d="M4 7h16M4 12h16M4 17h16"/>
+      </symbol>
+      <symbol id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <path d="M6 6l12 12M18 6L6 18"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ================= NAVBAR ================= -->
+  <header id="navbar" class="fixed inset-x-0 top-0 z-50">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8" aria-label="Main navigation">
+      <a href="#home" class="group flex items-center gap-3" aria-label="Petals and Pages home">
+        <img src="images/logo.png" alt="Petals &amp; Pages logo" class="h-11 w-auto max-w-[112px] object-contain sm:h-12 sm:max-w-[132px]" />
+        <span class="hidden flex-col leading-none sm:flex">
+          <span class="font-display text-2xl font-semibold tracking-wide text-wine">Petals <span class="italic text-rose">&amp;</span> Pages</span>
+          <span class="mt-1 text-[9px] uppercase tracking-[0.34em] text-muted">Handmade keepsakes</span>
+        </span>
+      </a>
+
+      <div class="hidden items-center gap-8 lg:flex">
+        <a href="#home" class="nav-link text-sm font-medium text-ink/80 hover:text-wine">Home</a>
+        <a href="#products" class="nav-link text-sm font-medium text-ink/80 hover:text-wine">Collection</a>
+        <a href="#about" class="nav-link text-sm font-medium text-ink/80 hover:text-wine">Our Story</a>
+        <a href="#how" class="nav-link text-sm font-medium text-ink/80 hover:text-wine">How It Works</a>
+        <a href="#contact" class="nav-link text-sm font-medium text-ink/80 hover:text-wine">Contact</a>
+        <a href="#contact" class="rounded-full bg-wine px-6 py-3 text-sm font-medium text-cream shadow-soft transition hover:-translate-y-0.5 hover:bg-wineDark">Order Now</a>
+      </div>
+
+      <button id="menu-btn" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu"
+        class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-wine/15 bg-white/70 text-wine backdrop-blur transition hover:bg-white lg:hidden">
+        <svg id="icon-open" class="h-6 w-6"><use href="#icon-menu"/></svg>
+        <svg id="icon-close" class="hidden h-6 w-6"><use href="#icon-x"/></svg>
+      </button>
+    </nav>
+
+    <div id="mobile-menu" class="hidden border-t border-wine/10 bg-cream/95 px-6 pb-7 pt-4 shadow-card backdrop-blur-xl lg:hidden">
+      <div class="flex flex-col gap-1">
+        <a href="#home" class="rounded-xl px-3 py-3 text-sm font-medium text-ink/80 hover:bg-blush/40 hover:text-wine">Home</a>
+        <a href="#products" class="rounded-xl px-3 py-3 text-sm font-medium text-ink/80 hover:bg-blush/40 hover:text-wine">Collection</a>
+        <a href="#about" class="rounded-xl px-3 py-3 text-sm font-medium text-ink/80 hover:bg-blush/40 hover:text-wine">Our Story</a>
+        <a href="#how" class="rounded-xl px-3 py-3 text-sm font-medium text-ink/80 hover:bg-blush/40 hover:text-wine">How It Works</a>
+        <a href="#contact" class="rounded-xl px-3 py-3 text-sm font-medium text-ink/80 hover:bg-blush/40 hover:text-wine">Contact</a>
+        <a href="#contact" class="mt-3 rounded-full bg-wine px-6 py-3.5 text-center text-sm font-medium text-cream">Order Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section id="home" class="relative overflow-hidden pb-20 pt-32 sm:pt-36 lg:pb-28 lg:pt-40">
+      <div class="pointer-events-none absolute -left-24 top-24 h-72 w-72 rounded-full bg-blush/60 blur-3xl"></div>
+      <div class="pointer-events-none absolute -right-24 top-1/3 h-80 w-80 rounded-full bg-sageLight/80 blur-3xl"></div>
+
+      <div class="relative mx-auto grid max-w-7xl items-center gap-16 px-5 sm:px-8 lg:grid-cols-[1.05fr_1fr] lg:gap-10">
+        <div class="reveal">
+          <span class="inline-flex items-center gap-2 rounded-full border border-wine/15 bg-white/70 px-4 py-2 text-[10px] font-medium uppercase tracking-[0.28em] text-wine backdrop-blur sm:text-[11px]">
+            <svg class="h-4 w-4"><use href="#icon-flower"/></svg>
+            Fresh flowers, pressed by hand
+          </span>
+
+          <h1 class="mt-6 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-ink text-balance sm:text-6xl lg:text-[5.1rem]">
+            Where <span class="italic text-wine">petals</span> meet <span class="italic text-wine">pages</span>
+          </h1>
+
+          <p class="mt-6 max-w-lg text-lg leading-relaxed text-muted">
+            Handmade bookmarks and backcover designs, pressed with real flowers. Little keepsakes for the stories you love most.
+          </p>
+
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <a href="#products" class="group inline-flex items-center justify-center gap-2 rounded-full bg-wine px-7 py-4 text-sm font-medium text-cream shadow-soft transition hover:-translate-y-0.5 hover:bg-wineDark">
+              Explore the collection
+              <svg class="h-4 w-4 transition-transform group-hover:translate-x-1"><use href="#icon-arrow"/></svg>
+            </a>
+            <a href="https://wa.me/94712861399?text=Hello%20Petals%20%26%20Pages!%20I%20would%20like%20to%20know%20more%20about%20your%20handmade%20bookmarks%20and%20backcover%20designs."
+              target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center gap-2 rounded-full border border-wine/20 bg-white/60 px-7 py-4 text-sm font-medium text-wine backdrop-blur transition hover:border-wine/40 hover:bg-white">
+              <svg class="h-5 w-5"><use href="#icon-whatsapp"/></svg>
+              Order on WhatsApp
+            </a>
+          </div>
+
+          <dl class="mt-12 grid max-w-lg grid-cols-3 gap-4 border-t border-wine/10 pt-7">
+            <div>
+              <dt class="text-[10px] uppercase tracking-[0.2em] text-muted">Every piece</dt>
+              <dd class="mt-1 font-display text-2xl font-semibold text-wine">Rs. 500</dd>
+            </div>
+            <div class="border-l border-wine/10 pl-4">
+              <dt class="text-[10px] uppercase tracking-[0.2em] text-muted">Handmade</dt>
+              <dd class="mt-1 font-display text-2xl font-semibold text-wine">100%</dd>
+            </div>
+            <div class="border-l border-wine/10 pl-4">
+              <dt class="text-[10px] uppercase tracking-[0.2em] text-muted">Made in</dt>
+              <dd class="mt-1 font-display text-2xl font-semibold text-wine">Matale</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="reveal reveal-delay-1 relative mx-auto w-full max-w-[430px] lg:max-w-none">
+          <div class="floaty-slow absolute -left-6 -top-6 h-20 w-20 rounded-full border border-wine/15"></div>
+
+          <figure class="relative overflow-hidden rounded-t-[220px] rounded-b-[2rem] border-[10px] border-white bg-sand shadow-soft">
+            <img src="images/product-1.jpg" alt="Handmade floral bookmark by Petals and Pages" class="h-[420px] w-full object-cover sm:h-[520px]" fetchpriority="high" />
+          </figure>
+
+          <figure class="floaty absolute -bottom-10 -left-4 w-36 overflow-hidden rounded-2xl border-[6px] border-white shadow-card sm:-left-10 sm:w-48">
+            <img src="images/product-2.jpg" alt="Close-up of a pressed flower bookmark" class="aspect-square w-full object-cover" loading="lazy" />
+          </figure>
+
+          <figure class="floaty-slow absolute -right-3 top-20 w-28 overflow-hidden rounded-2xl border-[6px] border-white shadow-card sm:-right-8 sm:w-36">
+            <img src="images/product-4.jpg" alt="Delicate floral bookmark detail" class="aspect-[4/5] w-full object-cover" loading="lazy" />
+          </figure>
+
+          <div class="absolute -bottom-4 right-2 rounded-2xl bg-cream/95 px-5 py-4 text-center shadow-card ring-1 ring-wine/10 backdrop-blur sm:right-0">
+            <p class="font-display text-3xl font-semibold leading-none text-wine">Rs. 500</p>
+            <p class="mt-1 text-[9px] uppercase tracking-[0.22em] text-muted">per piece</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee border-y border-wine/10 bg-wine py-4 text-cream">
+      <div class="marquee__track">
+        <div class="flex shrink-0 items-center gap-10 pr-10 text-[10px] uppercase tracking-[0.35em] sm:text-xs">
+          <span>Pressed flowers</span><span class="text-blush/60">/</span>
+          <span>Handmade bookmarks</span><span class="text-blush/60">/</span>
+          <span>Backcover designs</span><span class="text-blush/60">/</span>
+          <span>Made in Matale</span><span class="text-blush/60">/</span>
+          <span>Thoughtful gifting</span><span class="text-blush/60">/</span>
+        </div>
+        <div class="flex shrink-0 items-center gap-10 pr-10 text-[10px] uppercase tracking-[0.35em] sm:text-xs" aria-hidden="true">
+          <span>Pressed flowers</span><span class="text-blush/60">/</span>
+          <span>Handmade bookmarks</span><span class="text-blush/60">/</span>
+          <span>Backcover designs</span><span class="text-blush/60">/</span>
+          <span>Made in Matale</span><span class="text-blush/60">/</span>
+          <span>Thoughtful gifting</span><span class="text-blush/60">/</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= PRODUCTS ================= -->
+    <section id="products" class="scroll-mt-28 py-20 sm:py-28">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8">
+        <div class="reveal flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <div class="max-w-2xl">
+            <p class="eyebrow"><svg class="h-4 w-4"><use href="#icon-flower"/></svg> Our collection</p>
+            <h2 class="section-title mt-3">Little keepsakes, pressed with love</h2>
+            <p class="mt-4 max-w-xl text-muted">
+              Each bookmark and backcover is handmade with real pressed flowers — no two pieces are ever quite the same.
+            </p>
+          </div>
+          <a href="#contact" class="group inline-flex items-center gap-2 text-sm font-medium text-wine">
+            Ask about custom designs
+            <svg class="h-4 w-4 transition-transform group-hover:translate-x-1"><use href="#icon-arrow"/></svg>
+          </a>
+        </div>
+
+        <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- Product 1 -->
+          <article class="reveal group flex flex-col overflow-hidden rounded-3xl bg-white shadow-card ring-1 ring-wine/5 transition duration-500 hover:-translate-y-1.5 hover:shadow-soft">
+            <div class="relative aspect-[4/5] overflow-hidden bg-sand">
+              <img src="images/product-1.jpg" alt="Pressed Petal Bookmark by Petals and Pages" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" loading="lazy" />
+              <span class="absolute left-3 top-3 rounded-full bg-wine/90 px-3 py-1 text-[9px] font-medium uppercase tracking-[0.2em] text-cream backdrop-blur">Bookmark</span>
+              <span class="absolute right-3 top-3 rounded-full bg-cream/95 px-3 py-1 text-xs font-semibold text-wine shadow-sm backdrop-blur">Rs. 500</span>
+            </div>
+            <div class="flex flex-1 flex-col p-5">
+              <h3 class="font-display text-2xl font-semibold leading-tight text-ink">Pressed Petal Bookmark</h3>
+              <p class="mt-2 flex-1 text-sm leading-relaxed text-muted">Delicate real petals sealed into a slim, hand-finished bookmark.</p>
+              <a href="#" data-product="Pressed Petal Bookmark" class="order-btn mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-wine px-4 py-2.5 text-sm font-medium text-cream transition hover:bg-wineDark">
+                <svg class="h-4 w-4"><use href="#icon-whatsapp"/></svg>
+                Order on WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="reveal reveal-delay-1 group flex flex-col overflow-hidden rounded-3xl bg-white shadow-card ring-1 ring-wine/5 transition duration-500 hover:-translate-y-1.5 hover:shadow-soft">
+            <div class="relative aspect-[4/5] overflow-hidden bg-sand">
+              <img src="images/product-2.jpg" alt="Vintage Garden Bookmark by Petals and Pages" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" loading="lazy" />
+              <span class="absolute left-3 top-3 rounded-full bg-wine/90 px-3 py-1 text-[9px] font-medium uppercase tracking-[0.2em] text-cream backdrop-blur">Bookmark</span>
+              <span class="absolute right-3 top-3 rounded-full bg-cream/95 px-3 py-1 text-xs font-semibold text-wine shadow-sm backdrop-blur">Rs. 500</span>
+            </div>
+            <div class="flex flex-1 flex-col p-5">
+              <h3 class="font-display text-2xl font-semibold leading-tight text-ink">Vintage Garden Bookmark</h3>
+              <p class="mt-2 flex-1 text-sm leading-relaxed text-muted">Soft, old-book tones with hand-pressed florals and a ribbon tail.</p>
+              <a href="#" data-product="Vintage Garden Bookmark" class="order-btn mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-wine px-4 py-2.5 text-sm font-medium text-cream transition hover:bg-wineDark">
+                <svg class="h-4 w-4"><use href="#icon-whatsapp"/></svg>
+                Order on WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="reveal reveal-delay-2 group flex flex-col overflow-hidden rounded-3xl bg-white shadow-card ring-1 ring-wine/5 transition duration-500 hover:-translate-y-1.5 hover:shadow-soft">
+            <div class="relative aspect-[4/5] overflow-hidden bg-sand">
+              <img src="images/product-3.jpg" alt="Botanical Keepsake Bookmark by Petals and Pages" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" loading="lazy" />
+              <span class="absolute left-3 top-3 rounded-full bg-wine/90 px-3 py-1 text-[9px] font-medium uppercase tracking-[0.2em] text-cream backdrop-blur">Bookmark</span>
+              <span class="absolute right-3 top-3 rounded-full bg-cream/95 px-3 py-1 text-xs font-semibold text-wine shadow-sm backdrop-blur">Rs. 500</span>
+            </div>
+            <div class="flex flex-1 flex-col p-5">
+              <h3 class="font-display text-2xl font-semibold leading-tight text-ink">Botanical Keepsake Bookmark</h3>
+              <p class="mt-2 flex-1 text-sm leading-relaxed text-muted">A nature-inspired design that makes every reading moment feel special.</p>
+              <a href="#" data-product="Botanical Keepsake Bookmark" class="order-btn mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-wine px-4 py-2.5 text-sm font-medium text-cream transition hover:bg-wineDark">
+                <svg class="h-4 w-4"><use href="#icon-whatsapp"/></svg>
+                Order on WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <!-- Product 4 -->
+          <article class="reveal group flex flex-col overflow-hidden rounded-3xl bg-white shadow-card ring-1 ring-wine/5 transition duration-500 hover:-translate-y-1.5 hover:shadow-soft">
+            <div class="relative aspect-[4/5] overflow-hidden bg-sand">
+              <img src="images/product-4.jpg" alt="Blush Bloom Bookmark by Petals and Pages" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" loading="lazy" />
+              <span class="absolute left-3 top-3 rounded-full bg-wine/90 px-3 py-1 text-[9px] font-medium uppercase tracking-[0.2em] text-cream backdrop-blur">Bookmark</span>
+              <span class="absolute right-3 top-3 rounded-full bg-cream/95 px-3 py-1 text-xs font-semibold text-wine shadow-sm backdrop-blur">Rs. 500</span>
+            </div>
+            <div class="flex flex-1 flex-col p-5">
+              <h3 class="font-display text-2xl font-semibold leading-tight text-ink">Blush Bloom Bookmark</h3>
+              <p class="mt-2 flex-1 text-sm leading-relaxed text-muted">A romantic blush palette with delicate petals, finished by hand.</p>
+              <a href="#" data-product="Blush Bloom Bookmark" class="order-btn mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-wine px-4 py-2.5 text-sm font-medium text-cream transition hover:bg-wineDark">
+                <svg class="h-4 w-4"><use href="#icon-whatsapp"/></svg>
+                Order on WhatsApp
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Custom order strip -->
+        <div class="reveal relative mt-10 overflow-hidden rounded-[2rem] bg-wine px-7 py-10 text-cream sm:px-12 sm:py-12">
+          <div class="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-rose/25 blur-2xl"></div>
+          <div class="pointer-events-none absolute -bottom-20 left-1/3 h-56 w-56 rounded-full bg-blush/10 blur-2xl"></div>
+          <div class="relative grid gap-8 lg:grid-cols-[1.6fr_1fr] lg:items-center">
+            <div>
+              <p class="text-[10px] uppercase tracking-[0.3em] text-blush/90">Made just for you</p>
+              <h3 class="mt-3 font-display text-3xl font-semibold sm:text-4xl">Custom bookmarks &amp; backcover designs</h3>
+              <p class="mt-3 max-w-xl text-cream/75">
+                Share a name, a date, or a favourite colour palette — we will press a one-of-a-kind piece around your story. Perfect for gifts and book lovers.
+              </p>
+            </div>
+            <div class="flex flex-col items-start gap-3 sm:flex-row sm:items-center lg:flex-col lg:items-start">
+              <a href="https://wa.me/94712861399?text=Hello%20Petals%20%26%20Pages!%20I%20would%20like%20to%20start%20a%20custom%20order."
+                target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 rounded-full bg-cream px-7 py-3.5 text-sm font-medium text-wine transition hover:-translate-y-0.5 hover:bg-white">
+                <svg class="h-5 w-5"><use href="#icon-whatsapp"/></svg>
+                Start a custom order
+              </a>
+              <span class="text-sm text-cream/70">From Rs. 500 per piece</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="scroll-mt-28 bg-sand/60 py-20 sm:py-28">
+      <div class="mx-auto grid max-w-7xl items-center gap-16 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20">
+        <div class="reveal relative mx-auto w-full max-w-md lg:max-w-none">
+          <div class="overflow-hidden rounded-[2rem] border-[10px] border-white shadow-soft">
+            <img src="images/product-3.jpg" alt="Handmade botanical bookmark with real pressed flowers" class="aspect-[4/5] w-full object-cover" loading="lazy" />
+          </div>
+          <figure class="absolute -bottom-8 -right-3 w-40 overflow-hidden rounded-2xl border-[6px] border-white shadow-card sm:-right-8 sm:w-52">
+            <img src="images/product-4.jpg" alt="Floral bookmark detail" class="aspect-square w-full object-cover" loading="lazy" />
+          </figure>
+          <div class="absolute -left-3 -top-6 flex h-20 w-20 items-center justify-center rounded-full bg-cream shadow-card ring-1 ring-wine/10 sm:-left-6">
+            <img src="images/logo.png" alt="" class="h-12 w-auto max-w-[60px] object-contain" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-1">
+          <p class="eyebrow"><svg class="h-4 w-4"><use href="#icon-flower"/></svg> Our story</p>
+          <h2 class="section-title mt-3">Pressed by hand, kept for years</h2>
+          <p class="mt-5 text-muted">
+            Petals &amp; Pages is a small homegrown studio in Matale, born from a love of fresh flowers and the books that deserve beautiful company.
+          </p>
+          <p class="mt-4 text-muted">
+            Every piece is made slowly: flowers are pressed, arranged, and sealed by hand. The result is a little keepsake that carries nature's softness into your everyday pages.
+          </p>
+
+          <div class="mt-8 grid gap-5 sm:grid-cols-2">
+            <div class="flex gap-3">
+              <span class="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-wine shadow-sm ring-1 ring-wine/10">
+                <svg class="h-5 w-5"><use href="#icon-flower"/></svg>
+              </span>
+              <div>
+                <h3 class="text-sm font-semibold text-ink">Real pressed flowers</h3>
+                <p class="mt-1 text-sm leading-relaxed text-muted">Every petal is pressed and sealed with care.</p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <span class="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-wine shadow-sm ring-1 ring-wine/10">
+                <svg class="h-5 w-5"><use href="#icon-heart"/></svg>
+              </span>
+              <div>
+                <h3 class="text-sm font-semibold text-ink">Fully handmade</h3>
+                <p class="mt-1 text-sm leading-relaxed text-muted">Cut, arranged, and finished one piece at a time.</p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <span class="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-wine shadow-sm ring-1 ring-wine/10">
+                <svg class="h-5 w-5"><use href="#icon-sparkles"/></svg>
+              </span>
+              <div>
+                <h3 class="text-sm font-semibold text-ink">Personal touches</h3>
+                <p class="mt-1 text-sm leading-relaxed text-muted">Names, dates, and colour palettes made to order.</p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <span class="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-wine shadow-sm ring-1 ring-wine/10">
+                <svg class="h-5 w-5"><use href="#icon-gift"/></svg>
+              </span>
+              <div>
+                <h3 class="text-sm font-semibold text-ink">Gift-ready</h3>
+                <p class="mt-1 text-sm leading-relaxed text-muted">A thoughtful keepsake for readers and writers.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="group mt-9 inline-flex items-center gap-2 text-sm font-medium text-wine">
+            Say hello
+            <svg class="h-4 w-4 transition-transform group-hover:translate-x-1"><use href="#icon-arrow"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section id="how" class="scroll-mt-28 py-20 sm:py-28">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8">
+        <div class="reveal mx-auto max-w-2xl text-center">
+          <p class="eyebrow justify-center"><svg class="h-4 w-4"><use href="#icon-flower"/></svg> How it works</p>
+          <h2 class="section-title mt-3">From a little idea to a keepsake</h2>
+          <p class="mt-4 text-muted">Ordering is simple — most of the magic happens over WhatsApp.</p>
+        </div>
+
+        <div class="mt-14 grid gap-6 md:grid-cols-3">
+          <div class="reveal rounded-3xl bg-white p-8 shadow-card ring-1 ring-wine/5">
+            <span class="font-display text-5xl font-semibold text-rose/60">01</span>
+            <h3 class="mt-4 font-display text-2xl font-semibold text-ink">Pick a design</h3>
+            <p class="mt-2 text-sm leading-relaxed text-muted">Choose a piece from the collection, or share your own idea for a custom design.</p>
+          </div>
+          <div class="reveal reveal-delay-1 rounded-3xl bg-white p-8 shadow-card ring-1 ring-wine/5">
+            <span class="font-display text-5xl font-semibold text-rose/60">02</span>
+            <h3 class="mt-4 font-display text-2xl font-semibold text-ink">Message us</h3>
+            <p class="mt-2 text-sm leading-relaxed text-muted">Send your name, phone number, and what you would like on WhatsApp.</p>
+          </div>
+          <div class="reveal reveal-delay-2 rounded-3xl bg-white p-8 shadow-card ring-1 ring-wine/5">
+            <span class="font-display text-5xl font-semibold text-rose/60">03</span>
+            <h3 class="mt-4 font-display text-2xl font-semibold text-ink">We press &amp; pack</h3>
+            <p class="mt-2 text-sm leading-relaxed text-muted">Your piece is handmade with care, then packed and arranged for handover.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= QUOTE ================= -->
+    <section class="relative overflow-hidden py-20 sm:py-24">
+      <div class="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-blush/40 blur-3xl"></div>
+      <div class="relative mx-auto max-w-4xl px-5 text-center sm:px-8">
+        <img src="images/logo.png" alt="Petals and Pages" class="reveal mx-auto h-16 w-auto object-contain sm:h-20" loading="lazy" />
+        <blockquote class="reveal reveal-delay-1 mt-8 font-display text-3xl italic leading-snug text-wine text-balance sm:text-4xl">
+          &ldquo;Some stories deserve flowers between the pages.&rdquo;
+        </blockquote>
+        <p class="reveal reveal-delay-2 mt-5 text-[10px] uppercase tracking-[0.32em] text-muted">Petals &amp; Pages</p>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="scroll-mt-28 relative overflow-hidden bg-wine py-20 text-cream sm:py-28">
+      <div class="pointer-events-none absolute -left-24 top-10 h-72 w-72 rounded-full bg-rose/20 blur-3xl"></div>
+      <div class="pointer-events-none absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-blush/10 blur-3xl"></div>
+
+      <div class="relative mx-auto grid max-w-7xl gap-12 px-5 sm:px-8 lg:grid-cols-[1fr_1.05fr] lg:gap-16">
+        <div class="reveal">
+          <p class="text-[10px] uppercase tracking-[0.32em] text-blush/90">Get in touch</p>
+          <h2 class="mt-4 font-display text-4xl font-semibold leading-tight text-balance sm:text-5xl">Let&rsquo;s make something lovely</h2>
+          <p class="mt-5 max-w-md text-cream/75">
+            Have a design in mind or want to order a piece from the collection? Message us — we would love to hear from you.
+          </p>
+
+          <div class="mt-10 space-y-4">
+            <a href="tel:+94712861399" class="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-4 transition hover:border-white/20 hover:bg-white/10">
+              <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-cream/10 text-blush">
+                <svg class="h-5 w-5"><use href="#icon-phone"/></svg>
+              </span>
+              <span>
+                <span class="block text-[9px] uppercase tracking-[0.24em] text-cream/50">Call / WhatsApp</span>
+                <span class="mt-1 block text-sm font-medium text-cream">071 286 1399</span>
+              </span>
+            </a>
+
+            <a href="mailto:chathubhavithanagamagecam20@gmail.com" class="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-4 transition hover:border-white/20 hover:bg-white/10">
+              <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-cream/10 text-blush">
+                <svg class="h-5 w-5"><use href="#icon-mail"/></svg>
+              </span>
+              <span class="min-w-0">
+                <span class="block text-[9px] uppercase tracking-[0.24em] text-cream/50">Email</span>
+                <span class="mt-1 block break-all text-xs font-medium text-cream sm:text-sm">chathubhavithanagamagecam20@gmail.com</span>
+              </span>
+            </a>
+
+            <div class="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-4">
+              <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-cream/10 text-blush">
+                <svg class="h-5 w-5"><use href="#icon-pin"/></svg>
+              </span>
+              <span>
+                <span class="block text-[9px] uppercase tracking-[0.24em] text-cream/50">Studio</span>
+                <span class="mt-1 block text-sm font-medium leading-relaxed text-cream">Randiya Uyana, Palapathwala,<br />Matale, Sri Lanka</span>
+              </span>
+            </div>
+          </div>
+
+          <a href="https://wa.me/94712861399?text=Hello%20Petals%20%26%20Pages!%20I%20would%20like%20to%20know%20more%20about%20your%20handmade%20bookmarks%20and%20backcover%20designs."
+            target="_blank" rel="noopener noreferrer"
+            class="mt-8 inline-flex items-center gap-2 rounded-full bg-cream px-7 py-4 text-sm font-medium text-wine shadow-soft transition hover:-translate-y-0.5 hover:bg-white">
+            <svg class="h-5 w-5"><use href="#icon-whatsapp"/></svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+
+        <div class="reveal reveal-delay-1">
+          <form id="contact-form" class="rounded-[2rem] bg-cream p-6 text-ink shadow-soft sm:p-8" novalidate>
+            <h3 class="font-display text-2xl font-semibold text-wine">Send an order request</h3>
+            <p class="mt-1 text-sm text-muted">Fill this in and we will open WhatsApp with your message ready to send.</p>
+
+            <div class="mt-6 grid gap-4 sm:grid-cols-2">
+              <div>
+                <label for="name" class="text-[10px] font-medium uppercase tracking-[0.2em] text-muted">Your name</label>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="Chathu"
+                  class="mt-1.5 w-full rounded-xl border border-wine/15 bg-white px-4 py-3 text-sm text-ink placeholder:text-muted/50 focus:border-wine/40 focus:outline-none focus:ring-2 focus:ring-wine/15" />
+              </div>
+              <div>
+                <label for="phone" class="text-[10px] font-medium uppercase tracking-[0.2em] text-muted">Phone number</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="07X XXX XXXX"
+                  class="mt-1.5 w-full rounded-xl border border-wine/15 bg-white px-4 py-3 text-sm text-ink placeholder:text-muted/50 focus:border-wine/40 focus:outline-none focus:ring-2 focus:ring-wine/15" />
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <label for="interest" class="text-[10px] font-medium uppercase tracking-[0.2em] text-muted">I&rsquo;m interested in</label>
+              <select id="interest" name="interest"
+                class="mt-1.5 w-full rounded-xl border border-wine/15 bg-white px-4 py-3 text-sm text-ink focus:border-wine/40 focus:outline-none focus:ring-2 focus:ring-wine/15">
+                <option>A handmade bookmark</option>
+                <option>A backcover design</option>
+                <option>A custom design</option>
+                <option>Gift order</option>
+                <option>Something else</option>
+              </select>
+            </div>
+
+            <div class="mt-4">
+              <label for="message" class="text-[10px] font-medium uppercase tracking-[0.2em] text-muted">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us what you have in mind..."
+                class="mt-1.5 w-full resize-none rounded-xl border border-wine/15 bg-white px-4 py-3 text-sm text-ink placeholder:text-muted/50 focus:border-wine/40 focus:outline-none focus:ring-2 focus:ring-wine/15"></textarea>
+            </div>
+
+            <button type="submit"
+              class="mt-6 w-full rounded-full bg-wine px-6 py-4 text-sm font-medium text-cream transition hover:bg-wineDark">
+              Send via WhatsApp
+            </button>
+            <p class="mt-3 text-center text-xs text-muted">This opens WhatsApp with your details filled in.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-ink text-cream/70">
+    <div class="mx-auto max-w-7xl px-5 py-14 sm:px-8">
+      <div class="grid gap-10 md:grid-cols-[1.5fr_1fr_1.2fr]">
+        <div>
+          <div class="inline-flex rounded-2xl bg-cream p-3">
+            <img src="images/logo.png" alt="Petals &amp; Pages logo" class="h-12 w-auto max-w-[150px] object-contain" loading="lazy" />
+          </div>
+          <p class="mt-5 max-w-sm text-sm leading-relaxed">
+            Handmade bookmarks and backcover designs, pressed with real flowers in Matale, Sri Lanka.
+          </p>
+          <div class="mt-5 flex gap-3">
+            <a href="https://wa.me/94712861399" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"
+              class="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-cream/80 transition hover:border-white/25 hover:text-cream">
+              <svg class="h-5 w-5"><use href="#icon-whatsapp"/></svg>
+            </a>
+            <a href="mailto:chathubhavithanagamagecam20@gmail.com" aria-label="Send an email"
+              class="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-cream/80 transition hover:border-white/25 hover:text-cream">
+              <svg class="h-5 w-5"><use href="#icon-mail"/></svg>
+            </a>
+            <a href="tel:+94712861399" aria-label="Call Petals and Pages"
+              class="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-cream/80 transition hover:border-white/25 hover:text-cream">
+              <svg class="h-5 w-5"><use href="#icon-phone"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-[10px] font-semibold uppercase tracking-[0.26em] text-cream">Explore</h3>
+          <ul class="mt-4 space-y-2.5 text-sm">
+            <li><a href="#home" class="transition hover:text-cream">Home</a></li>
+            <li><a href="#products" class="transition hover:text-cream">Collection</a></li>
+            <li><a href="#about" class="transition hover:text-cream">Our Story</a></li>
+            <li><a href="#how" class="transition hover:text-cream">How It Works</a></li>
+            <li><a href="#contact" class="transition hover:text-cream">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-[10px] font-semibold uppercase tracking-[0.26em] text-cream">Contact</h3>
+          <ul class="mt-4 space-y-2.5 text-sm">
+            <li><a href="tel:+94712861399" class="transition hover:text-cream">071 286 1399</a></li>
+            <li><a href="mailto:chathubhavithanagamagecam20@gmail.com" class="break-all transition hover:text-cream">chathubhavithanagamagecam20@gmail.com</a></li>
+            <li class="leading-relaxed">Randiya Uyana,<br />Palapathwala, Matale,<br />Sri Lanka</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-cream/50 sm:flex-row sm:items-center sm:justify-between">
+        <p>&copy; <span id="year">2026</span> Petals &amp; Pages. All rights reserved.</p>
+        <p>Handmade with love in Matale, Sri Lanka.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/94712861399?text=Hello%20Petals%20%26%20Pages!%20I%20would%20like%20to%20know%20more%20about%20your%20handmade%20bookmarks%20and%20backcover%20designs."
+    target="_blank" rel="noopener noreferrer" aria-label="Chat with Petals and Pages on WhatsApp"
+    class="wa-pulse fixed bottom-5 right-5 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_14px_34px_-10px_rgba(37,211,102,0.8)] transition hover:scale-105 sm:bottom-7 sm:right-7">
+    <svg class="h-7 w-7"><use href="#icon-whatsapp"/></svg>
+  </a>
+
+  <!-- Toast -->
+  <div id="toast" role="status" aria-live="polite"
+    class="pointer-events-none fixed bottom-24 left-1/2 z-[60] -translate-x-1/2 rounded-full bg-ink px-5 py-3 text-sm text-cream opacity-0 shadow-soft"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
